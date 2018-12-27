@@ -1,0 +1,30 @@
+{
+  "name": "practice_docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "nodemon --watch . -x \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.15.3",
+    "pg": "6.2.2",
+    "nodemon": "^1.11.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "dotenv": "^4.0.0",
+    "https": "^1.0.0",
+    "jade": "~1.11.0",
+    "locus": "^2.0.1",
+    "moment-timezone": "^0.5.14",
+    "morgan": "~1.9.0",
+    "pg-promise": "^5.9.7"
+  }
+}
